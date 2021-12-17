@@ -1,0 +1,5 @@
+﻿  RollGame.cpp
+C:\Users\futab\source\repos\RollGame\RollGame\RollGame.cpp(30,9): warning C4101: “score”: 未引用的局部变量
+C:\Users\futab\source\repos\RollGame\RollGame\RollGame.cpp(42,9): warning C4101: “score”: 未引用的局部变量
+C:\Users\futab\source\repos\RollGame\RollGame\RollGame.cpp(116,17): warning C4326: “main”的返回类型应为“int”而非“void”
+  RollGame.vcxproj -> C:\Users\futab\source\repos\RollGame\x64\Debug\RollGame.exe
