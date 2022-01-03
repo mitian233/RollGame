@@ -1,5 +1,7 @@
 #include <iostream>
 #include <fstream>
+using namespace std;
+
 int writeToFile(int score) {
     ofstream myfile;
     myfile.open("data.txt");
@@ -8,7 +10,7 @@ int writeToFile(int score) {
     return 0;
 }
 
-int readFromFile() {
+int readFromFile(int score) {
     ofstream myfile;
     myfile.open("data.txt");
     if (!myfile) {
@@ -17,9 +19,12 @@ int readFromFile() {
         writeToFile(0);
     }
     else {
+        new char 
+        const char* cs;
+        cs[] = score;
         cout << "Game data successfully opened. " << endl;
-        int score;
-        myfile.write >> score;
-        return score;
+        int score1 = 0;
+        myfile.write(cs,9);
+        return score1;
     }
 }
